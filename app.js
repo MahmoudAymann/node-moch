@@ -1,5 +1,2 @@
-function sayHello(name){
-    console.log('hello ' + name)
-}
-
-sayHello('mosh')
+const logger = require('./logger');
+logger('message')
